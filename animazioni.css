@@ -74,3 +74,11 @@
     transform: scale(1.5, 1.5);
 }
 
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: ruota 2s linear infinite;
+}
+@keyframes ruota {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(350deg);}
+}
