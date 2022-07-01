@@ -54,3 +54,13 @@
     filter: grayscale(100%) contrast(250%);
 }
 
+/* Esercizio 8 */
+.ex-8-img {
+    transition: 1s;
+}
+.ex-8-img:hover {
+    border-radius: 10%;
+    filter: grayscale(100%);
+    transform: rotate(-180deg);
+}
+
